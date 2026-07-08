@@ -1,0 +1,9 @@
+# Credenciales de la sesión de WhatsApp (Baileys las genera al escanear el QR).
+# Si se suben a git, cualquiera con ese archivo puede suplantar la sesión vinculada.
+auth_info/
+
+# Dependencias instaladas por npm.
+node_modules/
+
+# Variables de entorno con la API key real. Solo debe existir .env.example en el repo.
+.env
